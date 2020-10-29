@@ -1,0 +1,45 @@
+GET http://localhost:3000/subscribers/5f96cd483f8f3c217d9a2f6
+
+###
+
+GET http://localhost:3000/subscribers/5f96e62f8090c922c5c3aac8
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Hi",
+    "subscribedToChannel":"Web dev sub"
+}
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Hi",
+    "subscribedToChannel":"Web dev sub"
+}
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Hello",
+    "subscribedToChannel":"Web dev sub yeah"
+}
+
+###
+DELETE http://localhost:3000/subscribers/5f96e62f8090c922c5c3aac8
+
+###
+PATCH http://localhost:3000/subscribers/5f96e7acf3625623351d4acc
+Content-Type: application/json
+
+{
+    "name": "new name"
+}
